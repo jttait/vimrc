@@ -28,8 +28,5 @@ set incsearch
 " highlight search matches
 set hlsearch " highlight matches
 
-" use pathogen
-"execute pathogen#infect()
-
 " ignore upper/lower case when searching
 set ignorecase
