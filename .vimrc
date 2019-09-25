@@ -1,32 +1,35 @@
 " colorscheme
 colorscheme delek
 
-" enable syntax processing
+" Enable syntax processing
 syntax enable
 
-" number of visual spaces per tab
+" Number of visual spaces per tab
 set tabstop=4
 
-" number of spaces inserted per tab WHEN EDITING
+" When indenting with '>'
+set shiftwidth=4
+
+" Number of spaces inserted per tab WHEN EDITING
 set softtabstop=4
 
-" turn tab into spaces i.e. tab inserts four spaces
+" Turn tab into spaces i.e. tab inserts four spaces
 set expandtab
 
-" show line numbers
+" Show line numbers
 set number
 
-" load filetype-specific indent files
+" Load filetype-specific indent files
 filetype indent on
 
-" highlight matching [], (), {}
+" Highlight matching [], (), {}
 set showmatch
 
-" search as characters are entered
+" Search as characters are entered
 set incsearch
 
-" highlight search matches
-set hlsearch " highlight matches
+" Highlight search matches
+set hlsearch
 
-" ignore upper/lower case when searching
+" Ignore upper/lower case when searching
 set ignorecase
