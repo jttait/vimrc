@@ -1,8 +1,20 @@
-" colorscheme
+
+"###############################################################################
+"# Colours                                                                     #
+"###############################################################################
+
+" Colour scheme
 colorscheme delek
 
 " Enable syntax processing
-syntax enable
+syntax on
+
+"###############################################################################
+"# Indentation                                                                 #
+"###############################################################################
+
+" Load filetype-specific indent files
+filetype indent on
 
 " Number of visual spaces per tab
 set tabstop=4
@@ -16,11 +28,16 @@ set softtabstop=4
 " Turn tab into spaces i.e. tab inserts four spaces
 set expandtab
 
+"###############################################################################
+"# Line numbers                                                                #
+"###############################################################################
+
 " Show line numbers
 set number
 
-" Load filetype-specific indent files
-filetype indent on
+"###############################################################################
+"# Searching                                                                   #
+"###############################################################################
 
 " Highlight matching [], (), {}
 set showmatch
