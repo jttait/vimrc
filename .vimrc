@@ -1,52 +1,33 @@
 
-"###############################################################################
-"# Colours                                                                     #
-"###############################################################################
+" ##############################################################################
+" # Colors                                                                     #
+" ##############################################################################
 
-" Colour scheme
-colorscheme delek
+colorscheme delek " colour scheme
+syntax on         " enable syntax processing
 
-" Enable syntax processing
-syntax on
+" ##############################################################################
+" # Indentation                                                                #
+" ##############################################################################
 
-"###############################################################################
-"# Indentation                                                                 #
-"###############################################################################
+filetype indent on " load filetype-specific indent files
+set tabstop=4      " number of visual spaces shown for a tab character
+set shiftwidth=4   " number of spaces when using < and > commands
+set softtabstop=4  " number of spaces inserted (or removed) when you hit <TAB>
+set expandtab      " tabs are spaces
 
-" Load filetype-specific indent files
-filetype indent on
+" ##############################################################################
+" # Line numbers                                                               #
+" ##############################################################################
 
-" Number of visual spaces per tab
-set tabstop=4
+set number    " show line numbers
+set showmatch " highlight matching [], (), {}
 
-" When indenting with '>'
-set shiftwidth=4
+" ##############################################################################
+" # Searching                                                                  #
+" ##############################################################################
 
-" Number of spaces inserted per tab WHEN EDITING
-set softtabstop=4
-
-" Turn tab into spaces i.e. tab inserts four spaces
-set expandtab
-
-"###############################################################################
-"# Line numbers                                                                #
-"###############################################################################
-
-" Show line numbers
-set number
-
-"###############################################################################
-"# Searching                                                                   #
-"###############################################################################
-
-" Highlight matching [], (), {}
-set showmatch
-
-" Search as characters are entered
-set incsearch
-
-" Highlight search matches
-set hlsearch
-
-" Ignore upper/lower case when searching
-set ignorecase
+set showmatch  " highlight matching [], (), {}
+set incsearch  " search as characters are entered
+set hlsearch   " highlight matches
+set ignorecase " ignore upper/lower case when searching
