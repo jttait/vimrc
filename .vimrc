@@ -27,7 +27,6 @@ set showmatch " highlight matching [], (), {}
 " # Searching                                                                  #
 " ##############################################################################
 
-set showmatch  " highlight matching [], (), {}
 set incsearch  " search as characters are entered
 set hlsearch   " highlight matches
 set ignorecase " ignore upper/lower case when searching
