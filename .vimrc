@@ -35,4 +35,4 @@ set ignorecase " ignore upper/lower case when searching
 " # Pathogen package manager                                                   #
 " ##############################################################################
 
-execute pathogen#infect()
+"execute pathogen#infect()
